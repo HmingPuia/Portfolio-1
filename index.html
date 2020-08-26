@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        <img src="img/music.jpg" width="100" height="100" alt="">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact me</a></li>
+        </ul>
+    </nav>
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fas fa-bars fa-2x"></i>
+        </button>
+        <h1>Calgary Mizo Youth Wings</h1>
+        <p>worship is not a part of your life, it is your life!</p>
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+    <div class="container">
+        <h2>What is this page about.</h2>
+        <p>To worship is to show a lot of love and adoration for something. Religious believers worship gods, and people can
+        worship other people and things too. Worship is an extreme form of love — it's a type of unquestioning devotion. If you
+        worship God, then you love God so much that you don't question him at all.</p>
+        <p>In Christianity, worship is the act of attributing reverent honour and homage to God. ... One is proskuneo ("to worship")
+        which means to bow down to God or kings.</p>
+        <h2>Tell me more</h2>
+        <p>Prayer is a way of relating: to God, to ourselves, to those around us. In opening our hearts and minds and souls to God
+        we are challenged to grow, change, and to love. Just as we make time to spend with those we love, so in making time to
+        pray we are seeking to grow in our relationship with the Divine.</p>
+        <h2>Benefits</h2>
+        <ul>
+            <li>Aaeakening</li>
+            <li>Assurance</li>
+            <li>Advance</li>
+            <li>Accepting another leading</li>
+            <li>Accentuated Joy</li>
+        </ul>
+        <p><strong>We Believe in You. Come grow with us!!!</strong></p>
+    </div>
+    <!--Modal-->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="far fa-times-circle"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign up</h3>
+
+            </div>
+            <div class="modal-content">
+                <p>Dont miss out the latest sound from THE MIZO YOUTH WINGS.</p>
+                <form class="modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" class="form-input">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="Confirm password" class="form-input">
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn"/>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">&copy;The Mizo, 2020</footer>
+    <script src="index.js"></script>
+</body>
+</html>
